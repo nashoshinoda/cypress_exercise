@@ -1,0 +1,17 @@
+{
+  "name": "cypress_exercise",
+  "version": "1.0.0",
+  "description": "This is a little project to practice Cypress.io following the course 'Introduction to Cypress' of Test Automation University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2",
+    "lodash": "^4.17.21",
+    "npm": "^10.2.5"
+  }
+}
