@@ -1,5 +1,4 @@
 /// <reference types="Cypress" />
-
 import { LoginPageActions } from "../../page_objects/page_actions/login_page_actions"
 
 const login_elements = new LoginPageActions
