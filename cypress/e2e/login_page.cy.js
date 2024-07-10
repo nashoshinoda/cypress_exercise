@@ -11,7 +11,7 @@ describe("Page Object Model tutorial", function() {
         login_elements.loginButton()
     })
 
-    it("Login Page using vatlid credentials", function() {
+    it("Login Page using valid credentials", function() {
         cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         login_elements.username("Admin")
         login_elements.password("admin123")

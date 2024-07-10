@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "cypress": "^13.13.0"
-  },
   "name": "cypress_exercise",
   "version": "1.0.0",
   "description": "",
@@ -172,5 +169,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nasho Shinoda",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/Login"
+  }
 }
