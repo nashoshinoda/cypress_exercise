@@ -1,3 +1,23 @@
 on: push
 name: 'Hello world from JS Action'
 description: 'Greet someone and record the time'
+jobs:
+  deploy:
+    name: Run the test using Cypress.io
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@master
+      - name: Use node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.15.1'
+      - run: npm install
+      - name: Install cypress.io
+      - run: npm install --save-dev cypress
+      - name: Install dependencies
+      - run: npm install --save-dev cypress-cucumber-preprocessor
+      - run: npm install --save-dev allure-commandline
+      - run: npm install --save-dev allure-cypress
+      - name: Run the test case
+      - run: npx cypress run
+    
