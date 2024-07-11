@@ -29,7 +29,7 @@ This is a little automation project to test Cypress.io using the following tools
     ```
 * Generate an Allure report executing the following command:
     ```sh
-    npx allure serve allure-results
+    npx allure serve cypress/reports/allure-results/
     ```
 
 This project has a small GitHub action that runs the test case in every push. The result from the first execution can be found [here](https://github.com/nashoshinoda/cypress_exercise/actions/runs/9897462338).
