@@ -7,7 +7,11 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on("file:preprocessor", cucumber());
-      allureCypress(on);
+      allureCypress(on,
+        {
+          resultsDir: "./cypress/reports/allure-results",
+        }
+      );
     },
     specPattern: "cypress/e2e/*.feature",
   },
