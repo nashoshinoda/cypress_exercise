@@ -11,6 +11,6 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
       - name: Install cypress.io
-        uses: npm install --save-dev cypress
+        run: npm install --save-dev cypress
       - name: Install Cypress Cucumber Preprocessor
-        uses: npm install --save-dev cypress-cucumber-preprocessor
+        run: npm install --save-dev cypress-cucumber-preprocessor
