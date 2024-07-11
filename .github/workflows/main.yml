@@ -1,4 +1,4 @@
-name: 'Hello world from JS Action'
+name: 'Run the test case built in Cypress.io'
 on: push
 jobs:
   build:
@@ -6,4 +6,11 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@master
-    
+      - name: Checkout the repository
+        uses: actions/checkout@master
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+      - name: Install cypress.io
+        uses: npm install --save-dev cypress
+      - name: Install Cypress Cucumber Preprocessor
+        uses: npm install --save-dev cypress-cucumber-preprocessor
