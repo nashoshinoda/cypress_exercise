@@ -1,5 +1,6 @@
 name: 'Hello world from JS Action'
 on: push
+runs-on: ubuntu-latest
 jobs:
   deploy:
     name: Run the test using Cypress.io
