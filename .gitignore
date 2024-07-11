@@ -1,1 +1,1 @@
-allure-results/*
+./cypress/reports/allure-results/*
