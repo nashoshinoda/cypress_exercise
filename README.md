@@ -8,7 +8,7 @@ This is a little automation project to test Cypress.io using the following tools
 * Allure Commandline ^2.29.0
 * Allure Cypress ^3.0.0-beta.6
 * VSCode ^1.91.0
-* Cucumber (Gherkin) Full Support extension
+* Cucumber (Gherkin) Full Support VSCode extension
 
 ### How to use it
 * Install Node.js following the instructions from the [Node.js official page](https://nodejs.org/en/download/package-manager).
