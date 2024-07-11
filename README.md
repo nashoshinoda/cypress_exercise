@@ -16,6 +16,13 @@ This is a little automation project to test Cypress.io using the following tools
     ```sh
     git clone https://github.com/nashoshinoda/cypress_exercise.git
     ```
+* Install dependencies:
+    ```sh
+    npm install --save-dev cypress
+    npm install --save-dev cypress-cucumber-preprocessor
+    npm install --save-dev allure-commandline
+    npm install --save-dev allure-cypress
+    ```
 * Run the test executing this command:
     ```sh
     npx cypress run
