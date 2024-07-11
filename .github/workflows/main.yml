@@ -14,3 +14,5 @@ jobs:
         run: npm install --save-dev cypress
       - name: Install Cypress Cucumber Preprocessor
         run: npm install --save-dev cypress-cucumber-preprocessor
+      - name: Run the test case
+        run: npx cypress run
