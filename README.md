@@ -1,7 +1,7 @@
 # Cypress custom E2E POM & Cucumber Framework
 
 ### Summary
-This is a little automation project to test Cypress.io using the following tools:
+This is a little automation project to test Cypress.io validating and invalid and valid user (more tests coming). Here is the list of the tools used:
 * Node.js ^20.15.1
 * Cypress ^13.13.0
 * Cypress Cucumber Preprocessor ^4.3.1
