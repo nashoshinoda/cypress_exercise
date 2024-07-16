@@ -39,5 +39,5 @@ Then("Click on the Login button to log into the Orange HRM Website", function() 
 })
 
 Then("User must accessed to the HRM Website", function() {
-    cy.contains(home_elements.user_icon(), "Test ").screenshot()
+    cy.contains(home_elements.topbar(), "Dashboard").screenshot()
 })

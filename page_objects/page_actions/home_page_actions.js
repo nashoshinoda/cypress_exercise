@@ -7,10 +7,4 @@ export class HomePageActions {
         return
     }
 
-    user_icon () {
-        cy.get(homepage_element_locator.locators["user-icon"])
-
-        return
-    }
-
 }
