@@ -1,0 +1,6 @@
+{
+    "locators": {
+        "user-icon": "li.oxd-userdropdown",
+        "top-navbar": ".oxd-topbar"
+    }
+}
