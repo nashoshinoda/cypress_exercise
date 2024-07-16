@@ -32,6 +32,10 @@ This is a little automation project to test Cypress.io using the following tools
     npx allure serve cypress/reports/allure-results/
     ```
     Example:
+    ![Allure Report - Global results](./resources/report-001.png)
+    ![Allure Report - Details from the test](./resources/report-002.png)
+
+This project has a small GitHub action that runs the test case in every push. The results from these executions can be found [here](https://github.com/nashoshinoda/cypress_exercise/actions).
 
 #### Notes
 * Cypress executes the tests using Electron by default (more information [here](https://docs.cypress.io/guides/guides/launching-browsers)). If you want to use a specific browser, just add the following argument choosing the option desired:
@@ -41,6 +45,3 @@ This is a little automation project to test Cypress.io using the following tools
     npx cypress run --browser edge
     npx cypress run --browser webkit
     ```
-
-
-This project has a small GitHub action that runs the test case in every push. The results from these executions can be found [here](https://github.com/nashoshinoda/cypress_exercise/actions).
