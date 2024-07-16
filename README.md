@@ -31,5 +31,16 @@ This is a little automation project to test Cypress.io using the following tools
     ```sh
     npx allure serve cypress/reports/allure-results/
     ```
+    Example:
 
-This project has a small GitHub action that runs the test case in every push. The result from the first execution can be found [here](https://github.com/nashoshinoda/cypress_exercise/actions/runs/9897462338).
+#### Notes
+* Cypress executes the tests using Electron by default (more information [here](https://docs.cypress.io/guides/guides/launching-browsers)). If you want to use a specific browser, just add the following argument choosing the option desired:
+    ```sh
+    npx cypress run --browser chrome
+    npx cypress run --browser firefox
+    npx cypress run --browser edge
+    npx cypress run --browser webkit
+    ```
+
+
+This project has a small GitHub action that runs the test case in every push. The results from these executions can be found [here](https://github.com/nashoshinoda/cypress_exercise/actions).
